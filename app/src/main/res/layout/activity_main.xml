@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_inputpopup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="input popup" />
+
+        <Button
+            android:id="@+id/btn_selectlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="select item list" />
+
+        <Button
+            android:id="@+id/btn_openpdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="open pdf" />
+
+        <Button
+            android:id="@+id/btn_pdfview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pdf View" />
+
+        <Button
+            android:id="@+id/btn_filepicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="File Picker" />
+        <Button
+            android:id="@+id/btn_telp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="durasi telepon" />
+        <Button
+            android:id="@+id/btn_telplog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="durasi telepon log" />
+
+        <Button
+            android:id="@+id/btn_uploadfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="upload file" />
+        <Button
+            android:id="@+id/btn_websocket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="web socket client" />
+        <Button
+            android:id="@+id/btn_qrcodescanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="qrcode scanner" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

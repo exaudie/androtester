@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:id="@+id/lila_content_dialog"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_et_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tie_et_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hint"
+            android:imeActionId="@+id/ia_don"
+            android:imeOptions="actionGo"
+            android:inputType="text"
+            android:maxLines="1"
+            tools:ignore="InvalidImeActionId" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>
