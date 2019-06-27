@@ -56,6 +56,9 @@ public class WebSocket extends AppCompatActivity {
         mWebSocketClient.send(String.valueOf(json_column));
     }
 
+    /**
+     *
+     */
     private void connectWebSocket() {
         URI uri;
         try {

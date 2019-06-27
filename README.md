@@ -1,2 +1,2 @@
 # androtester
-tester program android
+tester program android by eko setiadi
