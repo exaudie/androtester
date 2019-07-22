@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.exam.ztes.DurasiTelpon.DurasiTelpon;
-import com.exam.ztes.DurasiTelpon.DurasiTelponLog;
 import com.exam.ztes.FilePicker.FilePicker;
+import com.exam.ztes.FormInput.FormInput;
 import com.exam.ztes.InputPopup.InputPopUp;
 import com.exam.ztes.Openpdf.OpenPdf;
 import com.exam.ztes.PdfView.PdfView;
@@ -75,14 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        Button btn_telplog = findViewById(R.id.btn_telplog);
-        btn_telplog.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, DurasiTelponLog.class);
-                startActivity(intent);
-            }
-        });
+
         Button btn_uploadfile = findViewById(R.id.btn_uploadfile);
         btn_uploadfile.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -104,6 +97,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, ScannerTes.class);
+                startActivity(intent);
+            }
+        });
+        Button btn_forminput = findViewById(R.id.btn_forminput);
+        btn_forminput.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, FormInput.class);
                 startActivity(intent);
             }
         });

@@ -1,8 +1,7 @@
-package id.co.multindo.sismafmobile.in.zinclude;
+package com.exam.ztes.Zinclude;
 
 import android.content.ContentValues;
 import android.content.Context;
-import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
@@ -11,12 +10,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-import java.util.List;
 
-import id.co.multindo.sismafmobile.in.IndexActivity;
-import id.co.multindo.sismafmobile.in.LoginActivity;
-import id.co.multindo.sismafmobile.in.zObject.DataUser;
-import id.co.multindo.sismafmobile.in.zObject.MenuUtama;
+
 
 /**
  * Created by admin on 10/30/2017.
@@ -38,9 +33,9 @@ public class SQLKontrol {
     /**
      * Menyimpan Data User ketika Login
      *
-     * @param dtuser
+     * @param //dtuser
      */
-    public void saveLogin(DataUser dtuser) {
+   /* public void saveLogin(DataUser dtuser) {
         String nik, username, foto, subjabatan_user;
         nik = dtuser.getNik();
         username = dtuser.getUsername();
@@ -55,7 +50,7 @@ public class SQLKontrol {
         valueins.put("subjabatan_user", subjabatan_user);
         db.insert(sqlHelper.TABLE_LOGINSHOW, null, valueins);
         db.close();
-    }
+    }*/
 
     public void updateFotoProfile(String pfoto, String pnik) {
         db = sqlHelper.getWritableDatabase();
@@ -75,7 +70,7 @@ public class SQLKontrol {
      *
      * @return
      */
-    public DataUser viewLogin() {
+   /* public DataUser viewLogin() {
         DataUser dtuser = new DataUser();
         db = sqlHelper.getReadableDatabase();
         Cursor cuser = db.rawQuery("select * from " + sqlHelper.TABLE_LOGINSHOW, null);
@@ -90,12 +85,12 @@ public class SQLKontrol {
         cuser.close();
         db.close();
         return dtuser;
-    }
+    }*/
 
     /**
      * Cek LOGIN pada SplashScreen
      */
-    public void checkLogin() {
+    /*public void checkLogin() {
         if (!this.is_login()) {
             Intent i = new Intent(cntx, LoginActivity.class);
             i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -107,7 +102,7 @@ public class SQLKontrol {
             i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             cntx.startActivity(i);
         }
-    }
+    }*/
 
     /**
      * Cek data LOGIN
@@ -180,7 +175,7 @@ public class SQLKontrol {
         return daftarmenu;
     }
 
-    public List<MenuUtama> getMenuUserV2() {
+   /* public List<MenuUtama> getMenuUserV2() {
        List<MenuUtama> daftarmenu = new ArrayList<>();
         db = sqlHelper.getReadableDatabase();
         Cursor menu = db.rawQuery("select * from " + sqlHelper.TABLE_MENUINDEX + " order by " + sqlHelper.COLMD_URUT + "," + sqlHelper.COLMD_IDMENU, null);
@@ -196,7 +191,7 @@ public class SQLKontrol {
         menu.close();
         db.close();
         return daftarmenu;
-    }
+    }*/
 
     /**
      * riwayat panggilan

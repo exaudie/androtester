@@ -1,4 +1,4 @@
-package id.co.multindo.sismafmobile.in.zinclude;
+package com.exam.ztes.Zinclude;
 
 
 import android.content.Context;
@@ -6,12 +6,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-import android.widget.Toast;
-
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 
 /**
  * Created by admin on 4/26/2017.

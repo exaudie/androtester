@@ -1,9 +1,8 @@
-package id.co.multindo.sismafmobile.in.zinclude;
+package com.exam.ztes.Zinclude;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.widget.Toast;
 
 /**
  * Created by admin on 6/7/2017.

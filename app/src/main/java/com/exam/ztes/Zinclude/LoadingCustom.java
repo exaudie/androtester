@@ -1,4 +1,4 @@
-package id.co.multindo.sismafmobile.in.zpopup;
+package com.exam.ztes.Zinclude;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -6,11 +6,9 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.view.Window;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import id.co.multindo.sismafmobile.in.R;
-
+import com.exam.ztes.R;
 public class LoadingCustom extends Dialog {
     Context cntx;
     Activity actv;

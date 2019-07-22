@@ -1,4 +1,4 @@
-package id.co.multindo.sismafmobile.in.zinclude;
+package com.exam.ztes.Zinclude;
 
 import android.Manifest;
 import android.app.Activity;
@@ -13,7 +13,8 @@ import android.support.v4.content.ContextCompat;
 import android.util.SparseIntArray;
 import android.view.View;
 
-import id.co.multindo.sismafmobile.in.R;
+import com.exam.ztes.R;
+
 
 /**
  * Created by eko_setiadi on 30/07/2017.

@@ -23,8 +23,8 @@
         android:required="true" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
-
     <application
+        android:name=".ZcekDBSQLite"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -60,8 +60,12 @@
         <activity
             android:name=".WebSocket.WebSocket"
             android:label="Web Socket" />
-        <activity android:name=".QECodeScanner.ScannerTes"
-            android:label="ScannerTes"></activity>
+        <activity
+            android:name=".QECodeScanner.ScannerTes"
+            android:label="ScannerTes" />
+        <activity
+            android:name=".FormInput.FormInput"
+            android:label="Form Input" />
     </application>
 
 </manifest>
