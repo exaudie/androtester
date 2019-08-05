@@ -15,6 +15,7 @@ import com.exam.ztes.PdfView.PdfView;
 import com.exam.ztes.QECodeScanner.ScannerTes;
 import com.exam.ztes.SelectItemList.SelectItemList;
 import com.exam.ztes.UploadFile.UploadFile;
+import com.exam.ztes.ViewImage.ScrollingActivity;
 import com.exam.ztes.WebSocket.WebSocket;
 
 
@@ -105,6 +106,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, FormInput.class);
+                startActivity(intent);
+            }
+        });
+        Button btn_viewimage = findViewById(R.id.btn_viewimage);
+        btn_viewimage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ScrollingActivity.class);
                 startActivity(intent);
             }
         });

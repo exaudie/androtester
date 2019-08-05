@@ -74,6 +74,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="form input" />
+            <Button
+                android:id="@+id/btn_viewimage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="view image" />
         </LinearLayout>
     </ScrollView>
 

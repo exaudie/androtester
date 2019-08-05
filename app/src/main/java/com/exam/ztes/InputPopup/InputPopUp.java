@@ -82,7 +82,7 @@ public class InputPopUp extends AppCompatActivity implements View.OnClickListene
 
         Window window = dialog.getWindow();
         window.setGravity(Gravity.BOTTOM);
-        window.setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.WRAP_CONTENT);
+        window.setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.MATCH_PARENT);
         window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
 
         objEditTextInput itemGrupView = grupView.get(indexInput);

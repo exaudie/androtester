@@ -53,7 +53,6 @@
         <activity android:name=".FilePicker.FilePicker" />
         <activity android:name=".FilePicker.FilePickerActivity" />
         <activity android:name=".DurasiTelpon.DurasiTelpon" />
-        <activity android:name=".DurasiTelpon.DurasiTelponLog" />
         <activity
             android:name=".UploadFile.UploadFile"
             android:label="UploadFile" />
@@ -66,6 +65,13 @@
         <activity
             android:name=".FormInput.FormInput"
             android:label="Form Input" />
+        <activity
+            android:name=".ViewImage.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ViewImage.DetailImage"
+            android:windowSoftInputMode="adjustResize"
+            android:label="Detail Image"></activity>
     </application>
 
 </manifest>
